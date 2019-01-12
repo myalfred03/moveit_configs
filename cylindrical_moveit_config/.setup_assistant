@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: models
+    relative_path: urdf_cylindrical/cylindrical.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/Cylindrical.srdf
+  CONFIG:
+    author_name: Alfredo Morales
+    author_email: myalfredo03@ieee.org
+    generated_timestamp: 1547255161
